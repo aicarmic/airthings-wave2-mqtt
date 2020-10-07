@@ -49,7 +49,7 @@ client_id = #MQTT client, any string
 mqtt_user = #MQTT username, optional
 mqtt_password = #MQTT password, optional
 ```
-## Configure your MQTT broker
+## Configure MQTT broker
 If using Home assistant, install the mosquitto addon and configure a username/password (optional)
 
 Add the following sensors to your HA config. You can change the name and the topic to anything that suits, note that this creates four sensors that each receive on the same topic, so that HA can receive the payload using value templates. Also note that the value template for the Radon latest and Radon average measures convert from `bq/m3` which is how the wave transmits the payload, to `pci/l`:
@@ -96,7 +96,7 @@ connecting to MQTT Broker...
 ```
 
 # Setup as Cron
-On your Rpi, setup the script to run every 15 minutes (or at an interval of your liking):
+Once working, you can set this up to run as a cron. On your Rpi, setup the script to run every 15 minutes (or at the desired interval). Note that the data refreshes every 5 minutes (temp/humidity), so no point in fetching at a higher frequency than that:
 ```
 $ sudo crontab -e
 
