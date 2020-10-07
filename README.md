@@ -4,6 +4,12 @@ Script for pulling readings from an Airthings Wave2 over bluetooth and publishin
 <img src="https://user-images.githubusercontent.com/1105554/95281101-a4f73f80-0813-11eb-9099-dcda2347b872.png" width="400">
 
 
+# Credits & Prior Art
+
+This project was inspired by the following, many thanks to their authors:
+- https://github.com/Airthings/wave-reader
+- https://github.com/hpeyerl/airthingswave-mqtt
+
 
 # Prerequisites
 1. An Airthings Wave2 radon detector
