@@ -1,5 +1,5 @@
 # Airthings Wave2 to MQTT (Home Assistant)
-Script for pulling readings from an Airthings Wave2 over bluetooth and publishing over MQTT to Home Assistant. Desinged to run on an Rpi3 
+Script for pulling readings from an Airthings Wave2 over bluetooth and publishing over MQTT to Home Assistant. Designed to run on an Rpi3 
 
 <img src="https://user-images.githubusercontent.com/1105554/95281101-a4f73f80-0813-11eb-9099-dcda2347b872.png" width="400">
 
